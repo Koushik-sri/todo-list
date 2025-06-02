@@ -1,13 +1,3 @@
-# todo-list
-this is a simple todo list using python and mysql database
-
-step 1:
-install sql connector for python
-" pip install mysql-connector-python "
-
-step 2:
-open mysql workbench and create a new database
-"
 CREATE DATABASE IF NOT EXISTS user_data;
 
 USE user_data;
@@ -26,8 +16,3 @@ CREATE TABLE IF NOT EXISTS user_texts (
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
-
-"
-
-step 3:
- in python code change user and password with your mysql username and password
